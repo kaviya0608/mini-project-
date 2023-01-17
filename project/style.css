@@ -1,0 +1,89 @@
+*{
+    margin:0px ;
+    padding: 0px;
+    border: 0rigin;
+}
+
+header{
+left:0px;
+top:0%;
+color:#20c5d4fb;
+background-color:#6b705c;
+padding: 20px;
+font-size: 70px;
+font-family:serif;
+border-radius:7% 70PX 7% 70PX;
+box-shadow: 10px 10px 8px black;
+text-align: center;
+margin: 50px;
+text-shadow: rgb(211, 14, 63);
+word-spacing: 30PX;
+}
+
+.container{
+width:95%;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-items: center;
+margin:10PX 40PX 10PX 40PX;
+}
+
+h1{
+color:white;
+text-align: center;
+text-shadow: black;
+padding-bottom: 25px;
+}   
+
+img{
+ /* display: flex; */
+height:400px;
+width: 470px;
+padding: 20px;
+margin: 20px;
+border-radius: 50px;
+}
+
+body{
+background-image: url(https://cdn.pixabay.com/photo/2015/07/05/13/44/beach-832346__340.jpg); 
+background-size: 100% 100%;
+border-width: 100%;
+}
+
+img:hover{
+transform: scale(1.03);
+background-color:black;
+cursor: pointer;
+transition: all is ease;
+} 
+
+.b{
+text-align: center;
+padding: 80px;
+margin:150px ;
+border: groove 5px black;
+background-image:url(https://static.india.com/wp-content/uploads/2017/08/National-Anthem.jpg) ;
+}
+
+h2{
+    display:flex;
+padding: 10px;
+margin: 10px;
+font:bold 50px arial;
+}
+
+footer{
+left:0px;
+bottom:0px;
+box-sizing:border-box;
+color:#c1121f;
+background-color:#a98467;
+padding: 20PX;
+font-size: 50px;
+font-family:'Courier New', Courier, monospace 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+box-shadow: 10px 10px 8px black;
+text-align: center;
+position:relative;
+width: 100%;
+}
